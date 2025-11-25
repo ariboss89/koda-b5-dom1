@@ -27,8 +27,8 @@ form.addEventListener("submit", function (event) {
     const suhuReamur = (4 / 5) * suhuCelcius;
     lblReamur.textContent = suhuReamur;
 
-    // const suhuFahrenheit = (9 / 5) * suhuCelcius + 32;
-    // lblFahrenheit.innerText = suhuFahrenheit;
+    const suhuFahrenheit = (9 / 5) * suhuCelcius + 32;
+    lblFahrenheit.innerText = suhuFahrenheit;
 
     // const suhuKelvin = suhuCelcius + 273.15;
     // lblKelvin.textContent = suhuKelvin;
