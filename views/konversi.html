@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Konversi Suhu" />
+    <link rel="stylesheet" href="/styles/konversi.css" />
+    <title>Program Konversi</title>
+    <script src="/js/konversi.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form class="hero">
+        <h1 style="text-align: center">PROGRAM KONVERSI SUHU</h1>
+        <label style="margin-bottom: 10px">Suhu Celcius</label>
+        <input
+          class="input-style"
+          type="number"
+          name="suhuCelcius"
+          placeholder="Input Suhu (Celcius)"
+          value="0"
+        />
+        <span id="spanId" class="span-style"
+          >Silahkan input suhu celcius !!</span
+        >
+
+        <button class="btn-style" type="submit">Submit</button>
+
+        <label style="margin-bottom: 10px">Suhu Reamur</label>
+        <label class="label-style" type="number" id="suhuReamur">0</label>
+        <label style="margin-bottom: 10px" type="number">Suhu Fahrenheit</label>
+        <label class="label-style" type="number" id="suhuFahrenheit">0</label>
+        <label style="margin-bottom: 10px">Suhu Kelvin</label>
+        <label class="label-style" type="number" id="suhuKelvin">0</label>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
